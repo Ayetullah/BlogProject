@@ -4,6 +4,195 @@
     "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Service\\BlogP.Service.csproj": {}
   },
   "projects": {
+    "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\BlogP.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\BlogP.Core.csproj",
+        "projectName": "BlogP.Core",
+        "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\BlogP.Core.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\BlogP.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\BlogP.Data.csproj",
+        "projectName": "BlogP.Data",
+        "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\BlogP.Data.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj": {
+                "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj",
+        "projectName": "BlogP.Entity",
+        "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\BlogP.Core.csproj": {
+                "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Core\\BlogP.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Service\\BlogP.Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +216,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\BlogP.Data.csproj": {
+                "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Data\\BlogP.Data.csproj"
+              },
+              "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj": {
+                "projectPath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Entity\\BlogP.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

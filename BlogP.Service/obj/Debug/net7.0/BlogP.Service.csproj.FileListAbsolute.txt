@@ -10,3 +10,10 @@ D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Servi
 D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\refint\BlogP.Service.dll
 D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.pdb
 D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\ref\BlogP.Service.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Core.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Data.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Entity.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Data.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Entity.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Core.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.csproj.CopyComplete
