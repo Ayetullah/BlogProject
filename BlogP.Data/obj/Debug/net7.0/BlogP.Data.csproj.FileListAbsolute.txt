@@ -15,3 +15,5 @@ D:\Projects\nArchitecture\BlogProject\BlogP.Data\obj\Debug\net7.0\BlogP.Data.dll
 D:\Projects\nArchitecture\BlogProject\BlogP.Data\obj\Debug\net7.0\refint\BlogP.Data.dll
 D:\Projects\nArchitecture\BlogProject\BlogP.Data\obj\Debug\net7.0\BlogP.Data.pdb
 D:\Projects\nArchitecture\BlogProject\BlogP.Data\obj\Debug\net7.0\ref\BlogP.Data.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Data\bin\Debug\net7.0\BlogP.Data.runtimeconfig.json
+D:\Projects\nArchitecture\BlogProject\BlogP.Data\obj\Debug\net7.0\BlogP.Data.genruntimeconfig.cache
