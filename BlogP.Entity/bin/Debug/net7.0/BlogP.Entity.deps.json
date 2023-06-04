@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BlogP.Entity/1.0.0": {
+        "dependencies": {
+          "BlogP.Core": "1.0.0"
+        },
+        "runtime": {
+          "BlogP.Entity.dll": {}
+        }
+      },
+      "BlogP.Core/1.0.0": {
+        "runtime": {
+          "BlogP.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlogP.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogP.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

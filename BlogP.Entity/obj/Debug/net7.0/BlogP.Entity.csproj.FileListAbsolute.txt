@@ -1,0 +1,15 @@
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.csproj.AssemblyReference.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.AssemblyInfoInputs.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.AssemblyInfo.cs
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.csproj.CoreCompileInputs.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\bin\Debug\net7.0\BlogP.Entity.deps.json
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\bin\Debug\net7.0\BlogP.Entity.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\bin\Debug\net7.0\BlogP.Entity.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\bin\Debug\net7.0\BlogP.Core.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\bin\Debug\net7.0\BlogP.Core.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.csproj.CopyComplete
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\refint\BlogP.Entity.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\BlogP.Entity.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Entity\obj\Debug\net7.0\ref\BlogP.Entity.dll

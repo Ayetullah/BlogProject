@@ -1,0 +1,12 @@
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Service.deps.json
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Service.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\bin\Debug\net7.0\BlogP.Service.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.csproj.AssemblyReference.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.AssemblyInfoInputs.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.AssemblyInfo.cs
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.csproj.CoreCompileInputs.cache
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\refint\BlogP.Service.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\BlogP.Service.pdb
+D:\Projects\nArchitecture\BlogProject\BlogP.Service\obj\Debug\net7.0\ref\BlogP.Service.dll
