@@ -17,10 +17,25 @@ namespace BlogP.Service.Services.Concretes
 			_mapper = mapper;
 		}
 
-		public async Task<List<ArticleDto>> GetAllArticlesAsync()
+        public async Task CreateArticleAsync(ArticleAddDto articleDto)
+        {
+			var userId = Guid.Parse("FEB2B98B-8D5C-4E4B-92E0-2F7AEDE0A49A");
+			var article = new Article
+			{
+				Title = articleDto.Title,
+				Content = articleDto.Content,
+				CategoryId = articleDto.CategoryId,
+				UserId = userId
+			};
+
+			await _unitOfWork.GetRepository<Article>().AddAsync(article);
+			await _unitOfWork.SaveAsync();
+        }
+
+        public async Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync()
 		{
 			
-			var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync();
+			var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => !x.IsDeleted,x => x.Category);
 			var articleDtos = _mapper.Map<List<ArticleDto>>(articles);
 			return articleDtos;
 		}
