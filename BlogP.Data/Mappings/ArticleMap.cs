@@ -17,7 +17,8 @@ namespace BlogP.Data.Mappings
 				CategoryId = Guid.Parse("A37C8C85-BA5D-49FE-8729-5C1B05A17CA0"),				
 				ImageId = Guid.Parse("821A63A5-3942-47E5-B4F8-D338BE7438A2"),
 				CreatedBy = "Admin Test",
-				CreatedDate = DateTime.Now
+				CreatedDate = DateTime.Now,
+				UserId = Guid.Parse("6348DCD3-BA89-4F1C-95AB-89F0CB2BCF15")
 			});
 		}
 	}

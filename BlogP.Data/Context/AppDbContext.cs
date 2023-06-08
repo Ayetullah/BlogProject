@@ -1,10 +1,11 @@
 ﻿using BlogP.Entity.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace BlogP.Data.Context
 {
-	public class AppDbContext : DbContext
+	public class AppDbContext : IdentityDbContext<AppUser, AppRole, Guid, AppUserClaim, AppUserRole,AppUserLogin,AppRoleClaim,AppUserToken>
 	{
 		public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
 		{
@@ -22,6 +23,7 @@ namespace BlogP.Data.Context
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{
+			base.OnModelCreating(builder);//migration oluştururken hata almamak için eklendi identity den dolayı
 			builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 		}
 	}

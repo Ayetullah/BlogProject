@@ -1,10 +1,12 @@
 ﻿using BlogP.Entity.Entities;
 using BlogP.Service.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogP.Web.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize]
 	public class HomeController : Controller
 	{
 		private readonly IArticleService articleService;
