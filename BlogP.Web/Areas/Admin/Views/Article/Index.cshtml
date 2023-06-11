@@ -38,6 +38,7 @@
                             <th>@(item.IsDeleted ? "Aktif Değil" : "Aktif")</th>
                             <th>
                                 <a class="btn btn-primary btn-sm" data-id="@item.Id" asp-action="Update" asp-area="Admin" asp-controller="Article" asp-route-articleId="@item.Id"><i class="bx bxs-edit"></i></a>
+                                <a class="btn btn-danger btn-sm" data-id="@item.Id" asp-action="SafeDelete" asp-area="Admin" asp-controller="Article" asp-route-articleId="@item.Id"><i class="bx bxs-minus-circle"></i></a>
                             </th>
                         </tr>
                     }

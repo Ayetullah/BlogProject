@@ -8,5 +8,6 @@ namespace BlogP.Service.Services.Abstractions
 		Task<ArticleDto> GetAllArticlesWithCategoryByIdAsync(Guid id);
 		Task CreateArticleAsync(ArticleAddDto article);
 		Task UpdateArticleAsync(ArticleUpdateDto article);
+		Task SafeDeleteArticleAsync(Guid id);
 	}
 }

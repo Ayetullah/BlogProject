@@ -62,5 +62,15 @@ namespace BlogP.Web.Areas.Admin.Controllers
             return View(article);
         }
         #endregion
+
+        #region SafeDelete
+        [HttpGet]
+        public async Task<IActionResult> SafeDelete(Guid articleId)
+        {
+            await _articleService.SafeDeleteArticleAsync(articleId);
+            return RedirectToAction("Index","Article", new { Area = "Admin" });
+        }
+
+        #endregion
     }
 }
