@@ -4,7 +4,21 @@ namespace BlogP.Entity.Entities
 {
 	public class Article: EntityBase
 	{
-		public string Title { get; set; }
+		public Article()
+		{
+
+		}
+
+		public Article(string title, string content,  Guid categoryId, Guid userId, Guid? imageId = null)
+        {
+            Title = title;
+            Content = content;
+            CategoryId = categoryId;
+            UserId = userId;
+			ImageId = imageId;
+        }
+
+        public string Title { get; set; }
 		public string Content { get; set; }
 		public int ViewCount { get; set; } = 0;
 
