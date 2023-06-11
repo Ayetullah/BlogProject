@@ -17,7 +17,7 @@
                         <th>İşlemler</th>
                     </tr>
                 </thead>
-                <tfood>
+                @*<tfood>
                     <tr>
                         <th>Başlık</th>
                         <th>Kategori</th>
@@ -26,7 +26,7 @@
                         <th>Durum</th>
                         <th>İşlemler</th>
                     </tr>
-                </tfood>
+                </tfood>*@
                 <tbody class="table-border-bottom-0">
                     @foreach (var item in Model)
                     {
@@ -36,7 +36,9 @@
                             <th>@item.CreatedDate</th>
                             <th>@item.CreatedBy</th>
                             <th>@(item.IsDeleted ? "Aktif Değil" : "Aktif")</th>
-                            <th></th>
+                            <th>
+                                <a class="btn btn-primary btn-sm" data-id="@item.Id" asp-action="Update" asp-area="Admin" asp-controller="Article" asp-route-articleId="@item.Id"><i class="bx bxs-edit"></i></a>
+                            </th>
                         </tr>
                     }
                 </tbody>

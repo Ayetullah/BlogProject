@@ -1,4 +1,6 @@
-﻿using BlogP.Entity.ModelDtos.Articles;
+﻿using AutoMapper;
+using BlogP.Entity.Entities;
+using BlogP.Entity.ModelDtos.Articles;
 using BlogP.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,11 +11,13 @@ namespace BlogP.Web.Areas.Admin.Controllers
     {
         private readonly IArticleService _articleService;
         private readonly ICategoryService _categoryService;
+        private readonly IMapper _mapper;
 
-        public ArticleController(IArticleService articleService, ICategoryService categoryService)
+        public ArticleController(IArticleService articleService, ICategoryService categoryService, IMapper mapper)
         {
             _articleService = articleService;
             _categoryService = categoryService;
+            _mapper = mapper;
         }
         public async Task<IActionResult> Index()
         {
@@ -21,6 +25,7 @@ namespace BlogP.Web.Areas.Admin.Controllers
             return View(articles);
         }
 
+        #region Add
         [HttpGet]
         public async Task<IActionResult> Add()
         {
@@ -35,5 +40,27 @@ namespace BlogP.Web.Areas.Admin.Controllers
             var categories = await _categoryService.GetAllCategoriesNonDeleted();
             return View(new ArticleAddDto { Categories = categories });
         }
+        #endregion
+
+        #region Update
+        [HttpGet]
+        public async Task<IActionResult> Update(Guid articleId)
+        {
+            var article = await _articleService.GetAllArticlesWithCategoryByIdAsync(articleId);
+            var categories = await _categoryService.GetAllCategoriesNonDeleted();
+            var articleUpdateDto = _mapper.Map<ArticleUpdateDto>(article);
+            articleUpdateDto.Categories = categories;
+            return View(articleUpdateDto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(ArticleUpdateDto article)
+        {
+            await _articleService.UpdateArticleAsync(article);
+            var categories = await _categoryService.GetAllCategoriesNonDeleted();
+            article.Categories = categories;
+            return View(article);
+        }
+        #endregion
     }
 }
