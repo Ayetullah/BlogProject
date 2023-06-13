@@ -289,3 +289,7 @@ D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\Microsoft.AspNe
 D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\FluentValidation.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Web\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\nArchitecture\BlogProject\BlogP.Web\obj\Debug\net7.0\BlogP.Web.MvcApplicationPartsAssemblyInfo.cs

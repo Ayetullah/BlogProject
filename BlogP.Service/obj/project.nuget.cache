@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vfNdr+qFhjByOkHTjkSmBfbJlyeOcHY483SQBZ2LO1tPvbwJtoQ/iUIBfhe+7Zf+G97ctR60gIYfDhLtzPQa0Q==",
+  "dgSpecHash": "UJh1xbShsvOhMIt7iGU1EO1uaoHYX98Zoj7dBm3sKYwg/Ud9FTQdEhaczx8KEhnKm4ruHK7Tn97tIQ5w7xQv0g==",
   "success": true,
   "projectFilePath": "D:\\Projects\\nArchitecture\\BlogProject\\BlogP.Service\\BlogP.Service.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\osman\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.5\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.5.nupkg.sha512",
