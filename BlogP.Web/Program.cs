@@ -3,6 +3,7 @@ using BlogP.Data.Extensions;
 using BlogP.Entity.Entities;
 using BlogP.Service.Extensions;
 using Microsoft.AspNetCore.Identity;
+using NToastNotify;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,17 @@ builder.Services.LoadServiceLayerExtension();
 builder.Services.AddSession();
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+	.AddNToastNotifyToastr(new ToastrOptions()
+    {
+        ProgressBar = false,
+        PositionClass = ToastPositions.TopRight,
+		TimeOut = 3000
+    });
+
 
 #region Identity
-	builder.Services.AddIdentity<AppUser, AppRole>(
+builder.Services.AddIdentity<AppUser, AppRole>(
 		opt =>
 		{
 			opt.Password.RequireLowercase = false;
@@ -50,6 +58,7 @@ if (!app.Environment.IsDevelopment())
 	app.UseHsts();
 }
 
+app.UseNToastNotify();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
