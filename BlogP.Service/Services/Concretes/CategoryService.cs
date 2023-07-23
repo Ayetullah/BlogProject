@@ -16,7 +16,7 @@ namespace BlogP.Service.Services.Concretes
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-        public async Task<List<CategoryDto>> GetAllCategoriesNonDeleted()
+        public async Task<List<CategoryDto>>  GetAllCategoriesNonDeleted()
         {
             var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => !x.IsDeleted);
             var categoryDtos = _mapper.Map<List<CategoryDto>>(categories);

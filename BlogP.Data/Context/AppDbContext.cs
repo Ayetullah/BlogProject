@@ -11,9 +11,9 @@ namespace BlogP.Data.Context
 		{
 		}
 
-		protected AppDbContext()
-		{
-		}
+		//protected AppDbContext()
+		//{
+		//}
 
 		public DbSet<Article> Articles { get; set; }
 		public DbSet<Category> Categories { get; set; }

@@ -66,7 +66,13 @@ namespace BlogP.Web.Areas.Admin.Controllers
         {
             var article = await _articleService.GetAllArticlesWithCategoryByIdAsync(articleId);
             var categories = await _categoryService.GetAllCategoriesNonDeleted();
-            var articleUpdateDto = _mapper.Map<ArticleUpdateDto>(article);
+            var articleUpdateDto = new ArticleUpdateDto
+            {
+                Title = article.Title,
+                CategoryId= article.Category.Id,
+                Content = article.Content,
+                Id = articleId
+            };
             articleUpdateDto.Categories = categories;
             return View(articleUpdateDto);
         }
